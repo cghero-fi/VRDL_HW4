@@ -45,6 +45,8 @@ if you want to use my weights you can download by this command
 import glob
 !gdown https://drive.google.com/uc?id=1JPnQEDVRoUUQXpAhf5DT53kHc-xbgx9x
 ```
+Weights download(if you use colab to demo, you don’t need to download in here):
+https://drive.google.com/file/d/1JPnQEDVRoUUQXpAhf5DT53kHc-xbgx9x/view?usp=sharing
 and use this command to scaling per image (00.png for example)
 ```bash
 !python3 run.py --cuda --gpuids 0 --scale_factor 3 --model final.pth --input_image /content/testing_lr_images/testing_lr_images/00.png --output_filename output/00_pred.png
